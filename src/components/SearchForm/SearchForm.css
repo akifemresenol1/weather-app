@@ -1,0 +1,19 @@
+.container-searchForm #link {
+  display: none;
+}
+
+.container-searchForm input {
+  width: 100%;
+  padding: 15px 15px;
+  margin: 30px 0;
+  border-radius: 5px;
+  background-color: #1e1e29;
+  color: white;
+}
+
+.container-searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

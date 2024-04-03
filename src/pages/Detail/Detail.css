@@ -1,0 +1,16 @@
+.loading-gif {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.section-detail {
+  height: 100vh;
+  background-image: url("../../assets/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: wheat;
+}

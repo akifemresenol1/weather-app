@@ -1,0 +1,25 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header h1 {
+  position: fixed;
+  top: 50px;
+  font-size: 2.5rem;
+}
+
+.App-header h3 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.App-header h3 > span {
+  color: #85a5e3;
+}
+
+.App-header p {
+  margin: 10px;
+  opacity: 0.6;
+}
