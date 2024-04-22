@@ -148,7 +148,7 @@ npm run dev
 
 ![desktop 2](<(https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/detailpage-ss.PNG)>)
 
-![desktop 3](<(https://github.com/akifemresenol1/weather-app/blob/main/assets/screenshots/error-ss.png)>)
+![desktop 3](<(https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/detailpage-ss.PNG)>)
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
