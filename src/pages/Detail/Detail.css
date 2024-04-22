@@ -12,5 +12,184 @@
   background-image: url("../../assets/bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  color: wheat;
+  color: #bfbfd4;
+  display: flex;
+  justify-content: center;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-today {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.top-today {
+  display: flex;
+  flex-direction: column;
+  max-height: 250px;
+  border-radius: 5px;
+  background-color: #16161f;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+.today-wrapper {
+  background-image: url("../../assets/bg-night.png");
+  max-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.today-title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 2px;
+  color: #fafafa;
+}
+.today-title h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+.today-title p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.today-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fafafa;
+}
+
+.today-info span {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffff;
+}
+
+.today-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfbfd4;
+}
+.today-info img {
+  width: 140px;
+}
+
+.today-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #16161f;
+  padding: 10px 20px;
+}
+
+.forecast-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.forecast-detail:not(:last-child) {
+  box-shadow: inset 0px -1px 0px rgba(191, 191, 212, 0.3);
+}
+
+.forecast-detail p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfbfd4;
+}
+
+.forecast-detail span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.forecast-icon {
+  padding-right: 10px;
+  height: 24px;
+  width: auto;
+  opacity: 0.3;
+}
+
+.forecast-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #15161f;
+  border-radius: 5px;
+}
+
+.days-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+  padding: 15px;
+}
+
+.days-items img {
+  width: 40px;
+  height: 40px;
+}
+
+.day {
+  font-style: 14px;
+  font-weight: 700;
+}
+
+.temp {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.btn-backHome {
+  position: absolute;
+  left: 30%;
+  top: 20px;
+  display: flex;
+  margin: 20px;
+  width: 50px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #bfbfd4;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 0px;
+  transition: ease all 0.1s;
+}
+
+.btn-backHome:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-backHome {
+    top: 5px;
+    left: 80%;
+  }
 }

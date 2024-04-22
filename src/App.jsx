@@ -1,5 +1,4 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import ForecastDetail from "./pages/Detail/Detail";
 import Error from "./pages/Error/Error";
@@ -12,6 +11,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/forecast/:city" element={<ForecastDetail />} />
           <Route path="/error" element={<Error />} />
+          <Route path="*" element={<Navigate to="/error" replace />} />
         </Routes>
       </BrowserRouter>
     </div>
