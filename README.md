@@ -144,11 +144,11 @@ npm run dev
 
 <hr/>
 
-![desktop 1](<(/../src/assets/screen-shoots/home-ss.png)>)
+![1](https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/home-ss.PNG)
 
-![desktop 2](<(/../src/assets/screen-shoots/detailpage-ss.png)>)
+![2](https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/detailpage-ss.PNG)
 
-![desktop 3](<(/../src/assets/screen-shoots/error-ss.png)>)
+![3](https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/error-ss.PNG)
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
