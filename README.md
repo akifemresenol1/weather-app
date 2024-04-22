@@ -40,8 +40,6 @@ Weather App with ReactJS!
 
 <li>
 
-<a  href="#about-the-project">About The Project</a>
-
 <ul>
 
 <li><a  href="#built-with">Built With</a></li>
@@ -90,7 +88,7 @@ Weather App with ReactJS!
 
 ## About The Project
 
-![Weather App ](https://github.com/akifemresenol1/weather-app/blob/main/assets/screenshots/home-ss.png)
+![Weather App ](https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/detailpage-ss.PNG)
 
 ### Built With
 
@@ -146,9 +144,9 @@ npm run dev
 
 <hr/>
 
-![desktop 1](<(https://github.com/akifemresenol1/weather-app/blob/main/assets/screenshots/home-ss.png)>)
+![desktop 1](<(https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/home-ss.PNG)>)
 
-![desktop 2](<(https://github.com/akifemresenol1/weather-app/blob/main/assets/screenshots/detailpage-ss.png)>)
+![desktop 2](<(https://github.com/akifemresenol1/weather-app/blob/main/src/assets/screen-shoots/detailpage-ss.PNG)>)
 
 ![desktop 3](<(https://github.com/akifemresenol1/weather-app/blob/main/assets/screenshots/error-ss.png)>)
 
